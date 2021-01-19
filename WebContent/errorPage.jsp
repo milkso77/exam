@@ -10,7 +10,7 @@
 <body>
 <%
 	response.setStatus(200); // 주석을 달아볼게요 
-	String msg= exception.getMessage();//주석달게요.
+	String msg= exception.getMessage();//주석달게요. 다시 수정요
 %>
 	<p>errorPage : <%=msg %></p>
 </body>
