@@ -9,8 +9,8 @@
 </head>
 <body>
 <%
-	response.setStatus(200); // 주석을 달아볼게요
-	String msg= exception.getMessage();
+	response.setStatus(200); // 주석을 달아볼게요 
+	String msg= exception.getMessage();//주석달게요.
 %>
 	<p>errorPage : <%=msg %></p>
 </body>
